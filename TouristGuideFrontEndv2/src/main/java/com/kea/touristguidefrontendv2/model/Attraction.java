@@ -7,13 +7,23 @@ public class Attraction {
 
     private String name;
     private String description;
+    private String city;
 
     private List<String> tags;
 
-    public Attraction(String name, String description, List<String> tags) {
+    public Attraction(String name, String description, List<String> tags, String city) {
         this.name = name;
         this.description = description;
         this.tags = new ArrayList<>(tags);
+        this.city = city;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 
     public void addTags(String tag) {
@@ -54,6 +64,7 @@ public class Attraction {
         return "Attraction{" +
                 "name='" + name + '\'' +
                 ", description='" + description + '\'' +
+                ", city='" + city + '\'' +
                 ", tags=" + tags +
                 '}';
     }
