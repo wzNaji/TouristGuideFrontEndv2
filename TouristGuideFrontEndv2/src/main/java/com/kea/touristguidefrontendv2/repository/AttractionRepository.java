@@ -14,8 +14,8 @@ public class AttractionRepository {
 
     public AttractionRepository() {
         attractions = new ArrayList<>();
-        attractions.add(new Attraction("Tårn", "Højt tårn"));
-        attractions.add(new Attraction("Hus", "Flot"));
+        attractions.add(new Attraction("Tårn", "Højt tårn", List.of("flot")));
+        attractions.add(new Attraction("Hus", "Flot", List.of("smukt")));
     }
 
     // GET ALL
@@ -34,17 +34,19 @@ public class AttractionRepository {
     }
 
     // ADD TO LIST
-    public void addAttraction(String name, String description) {
+    public void addAttraction(String name, String description, List<String> tags) {
         Attraction attraction = new Attraction();
         attraction.setName(name);
         attraction.setDescription(description);
+        attraction.setTags(tags);
         attractions.add(attraction);
     }
 
     // UPDATE ATTRACTION
-    public void updateAttraction(String name, String description) {
+    public void updateAttraction(String name, String description, List<String> tags) {
         Attraction attraction = getByName(name);
         attraction.setDescription(description);
+        attraction.setTags(tags);
     }
 
     // DELETE

@@ -23,12 +23,12 @@ public class AttractionService {
         return attractionRepository.getByName(name);
     }
 
-    public void addAttraction(String name, String description) {
-        attractionRepository.addAttraction(name, description);
+    public void addAttraction(String name, String description, List<String> tags) {
+        attractionRepository.addAttraction(name, description, tags);
     }
 
-    public void updateAttraction(String name, String description) {
-        attractionRepository.updateAttraction(name,description);
+    public void updateAttraction(String name, String description, List<String> tags) {
+        attractionRepository.updateAttraction(name,description,tags);
     }
 
     public void deleteAttraction(String name) {

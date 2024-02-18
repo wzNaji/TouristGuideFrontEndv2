@@ -35,7 +35,7 @@ public class AttractionController {
     @PostMapping("/save")
     public String saveAttraction(@ModelAttribute Attraction attraction) {
         attractionService.addAttraction(attraction.getName(),
-                attraction.getDescription());
+                attraction.getDescription(),attraction.getTags());
         return "redirect:/attractions";
     }
 
@@ -47,8 +47,17 @@ public class AttractionController {
 
     @PostMapping("/update")
     public String updateAttraction(@ModelAttribute Attraction attraction) {
-        attractionService.updateAttraction(attraction.getName(), attraction.getDescription());
+        attractionService.updateAttraction(attraction.getName(), attraction.getDescription(),
+                attraction.getTags());
         return "redirect:/attractions";
     }
+
+    @GetMapping("/tags/{name}")
+    public String displayTags(@PathVariable String name, Model model) {
+        Attraction attraction = attractionService.getByName(name);
+        model.addAttribute("attraction", attraction);
+        return "tags";
+    }
+
 
 }
