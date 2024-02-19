@@ -3,9 +3,9 @@
     display: grid;
     grid-template-areas:
         "header header header"
-        "content content nav"
+        "content empty nav"
         "footer footer footer";
-    grid-template-columns: 3fr 0fr 1fr;
+    grid-template-columns: 6fr 1fr 1fr;
     grid-template-rows: 60px auto 70px; /* Basic størrelse*/
     grid-gap: 20px;
     min-height: 100vh; /*hele view*/
