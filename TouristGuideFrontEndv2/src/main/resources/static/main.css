@@ -1,3 +1,4 @@
+
 .main_container {
     display: grid;
     grid-template-areas:
@@ -5,10 +6,11 @@
         "content content nav"
         "footer footer footer";
     grid-template-columns: 3fr 0fr 1fr;
-    grid-template-rows: 50px auto 70px; /* Basic størrelse*/
+    grid-template-rows: 60px auto 70px; /* Basic størrelse*/
     grid-gap: 20px;
     min-height: 100vh; /*hele view*/
     flex-grow: 1; /*Skubber footer ned fordi main_container expander*/
+    background: linear-gradient(to bottom, blue, blueviolet);
 
 }
 
@@ -26,4 +28,27 @@ nav {
 
 footer { /* Se html for centrering på x og y + fixed height*/
     grid-area: footer;
+    background: linear-gradient(to bottom, blueviolet, blue);
 }
+/* Style the table */
+
+/* Style the table header */
+.table thead th {
+    background-color: blue; /* Background color for the table header */
+    color: white; /* Text color for better visibility */
+    border: 1px solid white; /* Adds a border to distinguish header cells */
+}
+
+/*Knapper*/
+.custom-btn {
+    background-color: blueviolet !important; /* Override Bootstrap background color */
+    border-color: blueviolet !important;
+    color: white !important;
+}
+
+.custom-btn:hover {
+    background-color: blue !important; /* A lighter or darker shade for hover effect */
+
+}
+
+
