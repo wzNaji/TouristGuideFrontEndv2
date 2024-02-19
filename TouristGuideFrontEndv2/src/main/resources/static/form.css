@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to bottom, blue,blueviolet);
+}
+
+footer {
+    background: linear-gradient(to bottom, blueviolet,blue);
+}
+
+.btn-primary {
+    background-color: blueviolet !important;
+    border-color: blueviolet !important;
+}
+.btn-primary:hover {
+    background-color: blue !important;
+}
+
+.custom-btn {
+    background-color: blueviolet !important;
+    border-color: blueviolet !important;
+}
+
+.custom-btn:hover {
+    background-color: blue !important;
+}
