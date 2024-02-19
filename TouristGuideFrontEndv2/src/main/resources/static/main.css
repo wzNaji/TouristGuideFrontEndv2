@@ -1,3 +1,29 @@
-body {
-    background: linear-gradient(to bottom, yellowgreen, green);
+.main_container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "content content nav"
+        "footer footer footer";
+    grid-template-columns: 3fr 0fr 1fr;
+    grid-template-rows: 50px auto 70px; /* Basic størrelse*/
+    grid-gap: 20px;
+    min-height: 100vh; /*hele view*/
+    flex-grow: 1; /*Skubber footer ned fordi main_container expander*/
+
+}
+
+header { /* Se html for centrering på x og y + fixed height*/
+    grid-area: header;
+}
+
+article {
+    grid-area: content;
+}
+
+nav {
+    grid-area: nav;
+}
+
+footer { /* Se html for centrering på x og y + fixed height*/
+    grid-area: footer;
 }
