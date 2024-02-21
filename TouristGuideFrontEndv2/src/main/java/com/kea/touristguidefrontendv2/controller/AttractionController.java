@@ -58,6 +58,11 @@ public class AttractionController {
         model.addAttribute("attraction", attraction);
         return "tags";
     }
+    @GetMapping("/delete/{name}")
+        public String deleteAttraction(@PathVariable String name) {
+        attractionService.deleteAttraction(name);
+        return "redirect:/attractions";
+    }
 
 
 }

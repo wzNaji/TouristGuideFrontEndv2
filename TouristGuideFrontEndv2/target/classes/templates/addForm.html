@@ -20,16 +20,16 @@
 
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
-            <input type="text" th:field="*{description}" id="description" class="form-control">
+            <textarea th:field="*{description}" id="description" class="form-control"></textarea>
         </div>
 
         <div class="mb-3">
             <label for="city" class="form-label">City</label>
             <select th:field="*{city}" id="city" class="form-select">
-                <option value="copenhagen">Copenhagen</option>
-                <option value="odense">Odense</option>
-                <option value="århus">Århus</option>
-                <option value="haderslev">Haderslev</option>
+                <option value="Copenhagen">Copenhagen</option>
+                <option value="Odense">Odense</option>
+                <option value="Århus">Århus</option>
+                <option value="Haderslev">Haderslev</option>
             </select>
         </div>
 

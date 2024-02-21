@@ -21,8 +21,6 @@
                 <th scope="col">Name</th>
                 <th scope="col">Description</th>
                 <th scope="col">City</th>
-                <th scope="col">Tags</th>
-                <th scope="col">Edit</th>
             </tr>
             </thead>
             <tbody>
@@ -32,6 +30,7 @@
                 <td th:text="${attraction.city}">City</td>
                 <td><a th:href="@{/tags/{name}(name=${attraction.name})}" class="btn btn-info">Tags</a></td>
                 <td><a th:href="@{/edit/{name}(name=${attraction.name})}" class="btn btn-secondary">Edit</a></td>
+                <td><a th:href="@{/delete/{name}(name=${attraction.name})}" class="btn btn-info">Delete</a></td>
             </tr>
             </tbody>
         </table>
