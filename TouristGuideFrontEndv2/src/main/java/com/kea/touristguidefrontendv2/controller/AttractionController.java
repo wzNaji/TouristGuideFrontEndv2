@@ -63,6 +63,6 @@ public class AttractionController {
         attractionService.deleteAttraction(name);
         return "redirect:/attractions";
     }
-
+//heet
 
 }
