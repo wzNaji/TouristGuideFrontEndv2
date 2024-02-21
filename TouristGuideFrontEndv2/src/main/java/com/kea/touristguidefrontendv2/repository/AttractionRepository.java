@@ -14,8 +14,8 @@ public class AttractionRepository {
 
     public AttractionRepository() {
         attractions = new ArrayList<>();
-        attractions.add(new Attraction("Tårn", "Højt tårn", List.of("flot"), "Copenhagen"));
-        attractions.add(new Attraction("Hus", "Flot", List.of("smukt"), "Odense"));
+        attractions.add(new Attraction("Tower", "High Tower", List.of("420"), "Copenhagen"));
+        attractions.add(new Attraction("House", "Nice", List.of("pretty"), "Odense"));
     }
 
     // GET ALL
@@ -41,6 +41,7 @@ public class AttractionRepository {
         attraction.setTags(tags);
         attraction.setCity(city);
         attractions.add(attraction);
+
     }
 
     // UPDATE ATTRACTION

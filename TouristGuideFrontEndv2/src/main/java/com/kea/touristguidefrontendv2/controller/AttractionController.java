@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
+
 @Controller
 public class AttractionController {
 
@@ -34,10 +35,14 @@ public class AttractionController {
 
     @PostMapping("/save")
     public String saveAttraction(@ModelAttribute Attraction attraction) {
+        if (attraction.getName().isEmpty()) {
+            return "errorPage";
+        }
         attractionService.addAttraction(attraction.getName(),
-                attraction.getDescription(),attraction.getTags(),attraction.getCity());
+                attraction.getDescription(), attraction.getTags(), attraction.getCity());
         return "redirect:/attractions";
     }
+
 
     @GetMapping("/edit/{name}")
     public String displayEditForm(@PathVariable String name, Model model) {
@@ -49,6 +54,7 @@ public class AttractionController {
     public String updateAttraction(@ModelAttribute Attraction attraction) {
         attractionService.updateAttraction(attraction.getName(), attraction.getDescription(),
                 attraction.getTags(), attraction.getCity());
+
         return "redirect:/attractions";
     }
 
@@ -58,11 +64,12 @@ public class AttractionController {
         model.addAttribute("attraction", attraction);
         return "tags";
     }
+
     @GetMapping("/delete/{name}")
-        public String deleteAttraction(@PathVariable String name) {
+    public String deleteAttraction(@PathVariable String name) {
         attractionService.deleteAttraction(name);
         return "redirect:/attractions";
     }
-//heet
+
 
 }
