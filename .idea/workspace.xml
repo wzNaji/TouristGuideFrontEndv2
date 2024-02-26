@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="minor changes">
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="minor changes 2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/editForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <workItem from="1708886908387" duration="13000" />
       <workItem from="1708888218602" duration="836000" />
       <workItem from="1708892830461" duration="1842000" />
-      <workItem from="1708953523882" duration="2170000" />
+      <workItem from="1708953523882" duration="3092000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -118,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708955734360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="minor changes 2.1">
+      <option name="closed" value="true" />
+      <created>1708956209558</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708956209558</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +149,7 @@
     <MESSAGE value="kekW" />
     <MESSAGE value="Added:&#10;&#10;Controller - displayErrorPage()" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="minor changes 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes 2.1" />
   </component>
 </project>
