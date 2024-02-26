@@ -4,6 +4,7 @@ import com.kea.touristguidefrontendv2.model.Attraction;
 import com.kea.touristguidefrontendv2.repository.AttractionRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -16,6 +17,9 @@ public class AttractionService {
     }
 
     public List<Attraction> getAttractions() {
+        if (attractionRepository.getAttractions().isEmpty()) {
+            return new ArrayList<>();
+        }
         return attractionRepository.getAttractions();
     }
 

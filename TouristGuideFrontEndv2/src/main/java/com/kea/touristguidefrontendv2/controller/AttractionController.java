@@ -20,7 +20,7 @@ public class AttractionController {
     @GetMapping("")
     public String displayAttractions(Model model) {
         List<Attraction> attractions = attractionService.getAttractions();
-        if (attractions == null) {
+        if (attractions.isEmpty()) {
             return "redirect:/errorPage";
         }
         model.addAttribute("attractions", attractions);
@@ -82,6 +82,10 @@ public class AttractionController {
             return "redirect:/errorPage";
         }
         return "redirect:/attractions";
+    }
+    @GetMapping("/errorPage")
+    public String displayErrorPage() {
+        return "errorPage";
     }
 
 
