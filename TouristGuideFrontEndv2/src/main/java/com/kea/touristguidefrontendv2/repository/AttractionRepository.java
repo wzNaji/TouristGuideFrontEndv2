@@ -14,6 +14,8 @@ public class AttractionRepository {
 
     public AttractionRepository() {
         attractions = new ArrayList<>();
+        attractions.add(new Attraction("Tårn","Højt tårn",List.of("Højt", "Flot"), "Copenhagen"));
+        attractions.add(new Attraction("Lars","Lars Lars",List.of("Lars", "Lars"), "Odense"));
     }
 
     // GET ALL
