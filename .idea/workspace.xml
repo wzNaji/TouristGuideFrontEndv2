@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="qodana config">
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/java/com/kea/touristguidefrontendv2/repositoryTest/RepositoryTest.java" afterDir="false" />
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;unitTest - RepositoryTest">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/addForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,32 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b961427aacd831bc32f046551e6e7b7f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "spring.configuration.checksum": "b961427aacd831bc32f046551e6e7b7f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
-        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output2/qodana.sarif.json" />
-        <option name="reportGuid" value="634fd3f4-106b-46b9-9b9d-d6b6e0484a5b" />
+        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output11/qodana.sarif.json" />
+        <option name="reportGuid" value="54816513-4fa1-4536-b75f-460965b99db1" />
         <option name="reportName" value="TouristGuideFrontEndv2/qodana/2024-02-29" />
       </LocalReportPersistedInfo>
     </option>
@@ -179,7 +184,7 @@
       <workItem from="1709151573425" duration="5000" />
       <workItem from="1709218214006" duration="1702000" />
       <workItem from="1709226813725" duration="2721000" />
-      <workItem from="1709229550240" duration="1298000" />
+      <workItem from="1709229550240" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -269,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709229809706</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added:&#10;unitTest - RepositoryTest">
+      <option name="closed" value="true" />
+      <created>1709231017634</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709231017634</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +321,7 @@
     <MESSAGE value="qodana" />
     <MESSAGE value="minorTest" />
     <MESSAGE value="qodana config" />
-    <option name="LAST_COMMIT_MESSAGE" value="qodana config" />
+    <MESSAGE value="Added:&#10;unitTest - RepositoryTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;unitTest - RepositoryTest" />
   </component>
 </project>
