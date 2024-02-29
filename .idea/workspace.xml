@@ -86,6 +86,7 @@
   </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
+      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output11/qodana.sarif.json" reportGuid="54816513-4fa1-4536-b75f-460965b99db1" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" publishedReportLink="https://qodana.cloud/projects/3Kd5Z/reports/kdRRD" reportGuid="d623d195-9d72-4c70-83b4-b3e0b73d51e6" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output2/qodana.sarif.json" reportGuid="634fd3f4-106b-46b9-9b9d-d6b6e0484a5b" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output1/qodana.sarif.json" reportGuid="904cec76-234f-448b-a336-8b26551e3a07" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
