@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;unitTest - RepositoryTest">
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/addForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" afterDir="false" />
-    </list>
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;minor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="qodana-feature" />
+        <entry key="$PROJECT_DIR$" value="qodana" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,8 +69,8 @@
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
-        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output11/qodana.sarif.json" />
-        <option name="reportGuid" value="54816513-4fa1-4536-b75f-460965b99db1" />
+        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output10/qodana.sarif.json" />
+        <option name="reportGuid" value="1d752a24-9799-4820-88de-f86840ad8a7a" />
         <option name="reportName" value="TouristGuideFrontEndv2/qodana/2024-02-29" />
       </LocalReportPersistedInfo>
     </option>
@@ -90,6 +84,7 @@
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" publishedReportLink="https://qodana.cloud/projects/3Kd5Z/reports/kdRRD" reportGuid="d623d195-9d72-4c70-83b4-b3e0b73d51e6" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output2/qodana.sarif.json" reportGuid="634fd3f4-106b-46b9-9b9d-d6b6e0484a5b" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output1/qodana.sarif.json" reportGuid="904cec76-234f-448b-a336-8b26551e3a07" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
+      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output10/qodana.sarif.json" reportGuid="1d752a24-9799-4820-88de-f86840ad8a7a" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TouristGuideFrontEndv2Application">
@@ -152,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
         <item itemvalue="JUnit.RepositoryTest (1)" />
-        <item itemvalue="JUnit.com.kea.touristguidefrontendv2.repositoryTest in TouristGuideFrontEndv2" />
         <item itemvalue="JUnit.RepositoryTest" />
-        <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
-        <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
+        <item itemvalue="JUnit.com.kea.touristguidefrontendv2.repositoryTest in TouristGuideFrontEndv2" />
+        <item itemvalue="JUnit.RepositoryTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +180,7 @@
       <workItem from="1709151573425" duration="5000" />
       <workItem from="1709218214006" duration="1702000" />
       <workItem from="1709226813725" duration="2721000" />
-      <workItem from="1709229550240" duration="2748000" />
+      <workItem from="1709229550240" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -283,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709231017634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added:&#10;Qodana config">
+      <option name="closed" value="true" />
+      <created>1709236857350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709236857350</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added:&#10;minor">
+      <option name="closed" value="true" />
+      <created>1709237039943</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709237039943</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +334,12 @@
     <MESSAGE value="minorTest" />
     <MESSAGE value="qodana config" />
     <MESSAGE value="Added:&#10;unitTest - RepositoryTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;unitTest - RepositoryTest" />
+    <MESSAGE value="Added:&#10;Qodana config" />
+    <MESSAGE value="Added:&#10;minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;minor" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
