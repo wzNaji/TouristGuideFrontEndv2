@@ -2,6 +2,6 @@ version: "1.0"
 profile:
   name: qodana.starter
 
-projectJDK: 20 
+projectJDK: 17
 
 linter: jetbrains/qodana-jvm:latest
