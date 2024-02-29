@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;minor" />
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="qodana">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +182,7 @@
       <workItem from="1709151573425" duration="5000" />
       <workItem from="1709218214006" duration="1702000" />
       <workItem from="1709226813725" duration="2721000" />
-      <workItem from="1709229550240" duration="3119000" />
+      <workItem from="1709229550240" duration="3589000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -294,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709237039943</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="qodana">
+      <option name="closed" value="true" />
+      <created>1709237319568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709237319568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,13 +340,13 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="minor changes 2.1" />
     <MESSAGE value="minor" />
-    <MESSAGE value="qodana" />
     <MESSAGE value="minorTest" />
     <MESSAGE value="qodana config" />
     <MESSAGE value="Added:&#10;unitTest - RepositoryTest" />
     <MESSAGE value="Added:&#10;Qodana config" />
     <MESSAGE value="Added:&#10;minor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;minor" />
+    <MESSAGE value="qodana" />
+    <option name="LAST_COMMIT_MESSAGE" value="qodana" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
