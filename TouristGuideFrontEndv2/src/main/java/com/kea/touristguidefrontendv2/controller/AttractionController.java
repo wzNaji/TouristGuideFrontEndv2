@@ -87,8 +87,4 @@ public class AttractionController {
     public String displayErrorPage() {
         return "errorPage";
     }
-
-
-
-
 }
