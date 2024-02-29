@@ -17,8 +17,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+
       - name: Build with Maven
         run: mvn -B package --file pom.xml
+        working-directory: TouristGuideFrontEndv2  # Specify the directory where pom.xml is located
 
   qodana:
     needs: build
@@ -29,10 +31,9 @@ jobs:
       checks: write
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2023.3
+        with:
+          project-dir: 'TouristGuideFrontEndv2'
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
