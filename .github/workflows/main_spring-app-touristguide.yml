@@ -54,6 +54,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'TouristGuideFrontEndv2'
+          app-name: 'spring-app-touristguide'
           slot-name: 'Production'
           package: '*.jar'
