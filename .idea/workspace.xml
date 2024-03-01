@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="qodana">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" afterDir="false" />
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="test commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main_spring-app-touristguide.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main_spring-app-touristguide.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +68,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" />
+        <option name="reportGuid" value="ef94ce2a-3907-4d71-9a2f-bb79cec6865e" />
+        <option name="reportName" value="TouristGuideFrontEndv2/qodana/2024-03-01" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
-      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output11/qodana.sarif.json" reportGuid="54816513-4fa1-4536-b75f-460965b99db1" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
-      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" publishedReportLink="https://qodana.cloud/projects/3Kd5Z/reports/kdRRD" reportGuid="d623d195-9d72-4c70-83b4-b3e0b73d51e6" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
-      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output2/qodana.sarif.json" reportGuid="634fd3f4-106b-46b9-9b9d-d6b6e0484a5b" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
-      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output1/qodana.sarif.json" reportGuid="904cec76-234f-448b-a336-8b26551e3a07" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
-      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output10/qodana.sarif.json" reportGuid="1d752a24-9799-4820-88de-f86840ad8a7a" reportId="TouristGuideFrontEndv2/qodana/2024-02-29" />
+      <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" reportGuid="ef94ce2a-3907-4d71-9a2f-bb79cec6865e" reportId="TouristGuideFrontEndv2/qodana/2024-03-01" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TouristGuideFrontEndv2Application">
@@ -172,7 +179,7 @@
       <workItem from="1709218214006" duration="1702000" />
       <workItem from="1709226813725" duration="2721000" />
       <workItem from="1709229550240" duration="6529000" />
-      <workItem from="1709279350680" duration="1742000" />
+      <workItem from="1709279350680" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -326,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709238833539</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test commit">
+      <option name="closed" value="true" />
+      <created>1709283576748</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709283576748</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +383,8 @@
     <MESSAGE value="Added:&#10;Qodana config" />
     <MESSAGE value="Added:&#10;minor" />
     <MESSAGE value="qodana" />
-    <option name="LAST_COMMIT_MESSAGE" value="qodana" />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
