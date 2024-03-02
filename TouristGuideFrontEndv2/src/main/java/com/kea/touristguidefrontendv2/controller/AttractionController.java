@@ -40,7 +40,7 @@ public class AttractionController {
         }
         attractionService.addAttraction(attraction.getName(),
                 attraction.getDescription(), attraction.getTags(), attraction.getCity());
-        return "redirect:/attractions";
+        return "redirect:/";
     }
 
 
@@ -62,7 +62,7 @@ public class AttractionController {
         attractionService.updateAttraction(attraction.getName(), attraction.getDescription(),
                 attraction.getTags(), attraction.getCity());
 
-        return "redirect:/attractions";
+        return "redirect:/";
     }
 
     @GetMapping("/tags/{name}")
@@ -81,7 +81,7 @@ public class AttractionController {
         if (attractionService.getByName(name) != null) {
             return "redirect:/errorPage";
         }
-        return "redirect:/attractions";
+        return "redirect:/";
     }
     @GetMapping("/errorPage")
     public String displayErrorPage() {
