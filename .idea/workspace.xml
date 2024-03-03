@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="azure yaml file added">
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/java/com/kea/touristguidefrontendv2/ControllerTest/AttractionControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="minor changes in redirects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "ControllerTest",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +74,7 @@
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" reportGuid="ef94ce2a-3907-4d71-9a2f-bb79cec6865e" reportId="TouristGuideFrontEndv2/qodana/2024-03-01" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AttractionControllerTest.testDisplayAttractionsWithNonEmptyList">
     <configuration name="AttractionControllerTest.testDisplayAttractionsWithNonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TouristGuideFrontEndv2" />
       <extension name="coverage">

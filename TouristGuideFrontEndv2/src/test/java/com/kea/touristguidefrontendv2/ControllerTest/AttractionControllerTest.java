@@ -1,13 +1,10 @@
 package com.kea.touristguidefrontendv2.ControllerTest;
 
-import ch.qos.logback.core.model.Model;
 import com.kea.touristguidefrontendv2.controller.AttractionController;
 import com.kea.touristguidefrontendv2.model.Attraction;
 import com.kea.touristguidefrontendv2.service.AttractionService;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -33,18 +30,10 @@ public class AttractionControllerTest {
     @MockBean
     private AttractionService attractionService;
 
-    @Mock
-    private Model model; // No longer needed as we're using MockMvc
-
-    @BeforeEach
-    void setUp() {
-        // No need for openMocks() in SpringBootTest
-    }
-
     @Test
     void testDisplayAttractionsWithNonEmptyList() throws Exception {
         // Arrange
-        List<Attraction> mockAttractions = List.of(new Attraction()); // Add mock attractions as needed
+        List<Attraction> mockAttractions = List.of(new Attraction());
         when(attractionService.getAttractions()).thenReturn(mockAttractions);
 
         // Act & Assert
@@ -89,7 +78,9 @@ public class AttractionControllerTest {
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/"));
 
-        verify(attractionService).addAttraction(eq("Test Attraction"), eq("Test Description"), eq(List.of("Test Tag", "Test Tag 2")), eq("Test City"));
+        verify(attractionService).addAttraction(eq("Test Attraction"),
+                        eq("Test Description"), eq(List.of("Test Tag",
+                        "Test Tag 2")), eq("Test City"));
     }
 
     @Test
