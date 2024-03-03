@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="azure yaml file added">
+      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/java/com/kea/touristguidefrontendv2/ControllerTest/AttractionControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="qodana" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,50 +45,87 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2cfjGy3pHDT63loEEOIyknS5RAR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b961427aacd831bc32f046551e6e7b7f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "ControllerTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "spring.configuration.checksum": "b961427aacd831bc32f046551e6e7b7f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" />
-        <option name="reportGuid" value="ef94ce2a-3907-4d71-9a2f-bb79cec6865e" />
-        <option name="reportName" value="TouristGuideFrontEndv2/qodana/2024-03-01" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="/private/var/folders/2n/vhjbxgwx4cx6gf59g2ppd5zc0000gn/T/qodana_output/qodana.sarif.json" reportGuid="ef94ce2a-3907-4d71-9a2f-bb79cec6865e" reportId="TouristGuideFrontEndv2/qodana/2024-03-01" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TouristGuideFrontEndv2Application">
+  <component name="RunManager">
+    <configuration name="AttractionControllerTest.testDisplayAttractionsWithNonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TouristGuideFrontEndv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kea.touristguidefrontendv2.ControllerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.ControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kea.touristguidefrontendv2.ControllerTest.AttractionControllerTest" />
+      <option name="METHOD_NAME" value="testDisplayAttractionsWithNonEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.showAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TouristGuideFrontEndv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kea.touristguidefrontendv2.ControllerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.ControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kea.touristguidefrontendv2.ControllerTest.ControllerTest" />
+      <option name="METHOD_NAME" value="showAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.showEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TouristGuideFrontEndv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kea.touristguidefrontendv2.ControllerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.ControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.kea.touristguidefrontendv2.ControllerTest.ControllerTest" />
+      <option name="METHOD_NAME" value="showEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepositoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TouristGuideFrontEndv2" />
       <extension name="coverage">
@@ -99,35 +137,6 @@
       <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.repositoryTest" />
       <option name="MAIN_CLASS_NAME" value="com.kea.touristguidefrontendv2.repositoryTest.RepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TouristGuideFrontEndv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kea.touristguidefrontendv2.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.kea.touristguidefrontendv2.repository.RepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.kea.touristguidefrontendv2.repositoryTest in TouristGuideFrontEndv2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TouristGuideFrontEndv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kea.touristguidefrontendv2.repositoryTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kea.touristguidefrontendv2.repositoryTest" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,10 +156,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AttractionControllerTest.testDisplayAttractionsWithNonEmptyList" />
+        <item itemvalue="JUnit.ControllerTest.showEmptyList" />
+        <item itemvalue="JUnit.ControllerTest.showAll" />
         <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
-        <item itemvalue="JUnit.RepositoryTest (1)" />
-        <item itemvalue="JUnit.RepositoryTest" />
-        <item itemvalue="JUnit.com.kea.touristguidefrontendv2.repositoryTest in TouristGuideFrontEndv2" />
         <item itemvalue="JUnit.RepositoryTest (1)" />
       </list>
     </recent_temporary>
