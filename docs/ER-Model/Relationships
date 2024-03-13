@@ -1,0 +1,16 @@
+Cities and Attractions:
+One-to-many relationship: Each city (from the Cities table) can have multiple attractions
+(in the Attractions table), but each attraction is linked to exactly one city.
+
+Attractions and Tags:
+Many-to-many relationship: Each attraction (from the Attractions table) can be associated with multiple tags
+(in the Tags table), and each tag can be related to multiple attractions.
+This relationship is facilitated through the AttractionTags junction table.
+
+AttractionTags (Junction Table):
+Links Attractions and Tags: The AttractionTags table serves as a junction table
+to enable the many-to-many relationship, containing foreign keys referencing both the attraction_id and tag_id.
+
+Tags:
+Standalone table: Contains unique tags that can be associated with multiple attractions
+through the AttractionTags table.
