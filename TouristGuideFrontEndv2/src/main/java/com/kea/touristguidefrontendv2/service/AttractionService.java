@@ -30,7 +30,7 @@ public class AttractionService {
     public void addAttraction(String name, String description, List<String> tags, String city) {
         attractionRepository.addAttraction(name, description, tags,city);
     }
-
+/*
     public void updateAttraction(String name, String description, List<String> tags,String city) {
         attractionRepository.updateAttraction(name,description,tags,city);
     }
@@ -38,5 +38,7 @@ public class AttractionService {
     public void deleteAttraction(String name) {
         attractionRepository.deleteAttraction(name);
     }
+
+ */
 
 }

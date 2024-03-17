@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added docs directory">
-      <change afterPath="$PROJECT_DIR$/docs/SQL_Script/DDL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SQL_Script/DML.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ER-Model attractions_db" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ER-Model/Relationships" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Screenshot 2024-03-13 at 19.24.59.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ER-Model/Er-Model of 'attractions_db' Database.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/repository/AttractionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/repository/AttractionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/service/AttractionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/service/AttractionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/controller/AttractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/controller/AttractionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/service/AttractionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/service/AttractionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/test-classes/com/kea/touristguidefrontendv2/ControllerTest/AttractionControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/test-classes/com/kea/touristguidefrontendv2/repositoryTest/RepositoryTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +58,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/Ludi/Desktop/2. Sem/TouristGuideFrontEndv2/docs/SQL_Script",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "spring.configuration.checksum": "b961427aacd831bc32f046551e6e7b7f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ændring-af-repo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Ludi/Desktop/2. Sem/TouristGuideFrontEndv2/docs/SQL_Script&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b961427aacd831bc32f046551e6e7b7f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/SQL_Script" />
@@ -82,7 +89,7 @@
       <recent name="$PROJECT_DIR$/docs/ER-Model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AttractionControllerTest.testDisplayAttractionsWithNonEmptyList">
+  <component name="RunManager" selected="Spring Boot.TouristGuideFrontEndv2Application">
     <configuration name="AttractionControllerTest.testDisplayAttractionsWithNonEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TouristGuideFrontEndv2" />
       <extension name="coverage">
@@ -161,10 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
         <item itemvalue="JUnit.AttractionControllerTest.testDisplayAttractionsWithNonEmptyList" />
         <item itemvalue="JUnit.ControllerTest.showEmptyList" />
         <item itemvalue="JUnit.ControllerTest.showAll" />
-        <item itemvalue="Spring Boot.TouristGuideFrontEndv2Application" />
         <item itemvalue="JUnit.RepositoryTest (1)" />
       </list>
     </recent_temporary>
@@ -197,7 +204,9 @@
       <workItem from="1709229550240" duration="6529000" />
       <workItem from="1709279350680" duration="8480000" />
       <workItem from="1709493822069" duration="339000" />
-      <workItem from="1710343378986" duration="2659000" />
+      <workItem from="1710343378986" duration="3806000" />
+      <workItem from="1710359982692" duration="15403000" />
+      <workItem from="1710682520887" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -407,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710355980029</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added docs directory">
+      <option name="closed" value="true" />
+      <created>1710358288630</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710358288630</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
