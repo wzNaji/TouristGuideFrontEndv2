@@ -191,7 +191,7 @@ public class AttractionRepository {
     } // Used in 'addAttraction'
 
 
-public void updateAttraction(String name, String description, List<String> tags, String city){
+    public void updateAttraction(String name, String description, List<String> tags, String city){
         int cityId = getCityID(city);
 
         String updateSQL = "UPDATE Attractions SET description = ?,city_id = ? WHERE name=?";
@@ -208,62 +208,73 @@ public void updateAttraction(String name, String description, List<String> tags,
             if(affectedRows ==0){
                 throw new SQLException("Updating attraction failed. No rows affected.");
             }
+            updateAttractionTags(name,tags,con);
+
             con.commit();
         } catch (SQLException e) {
             throw new RuntimeException("Error updating attraction", e);
         }
 }
-private void updateAttractionTags(String attractionName, List<String> tags, Connection con) throws SQLException {
+
+    private void updateAttractionTags(String attractionName, List<String> tags, Connection con) throws SQLException {
         long attractionId = getAttractionIdByName(attractionName, con);
         String deleteSQL = "DELETE FROM AttractionTags WHERE attraction_id =?";
-        try(PreparedStatement deleteStmt = con.prepareStatement(deleteSQL)){
-            deleteStmt.setLong(1,attractionId);
+        try (PreparedStatement deleteStmt = con.prepareStatement(deleteSQL)) {
+            deleteStmt.setLong(1, attractionId);
             deleteStmt.executeUpdate();
         }
-        for (String tag : tags){
+        for (String tag : tags) {
             int tagId = getTagId(tag, con);
             String insertSQL = "INSERT INTO AttractionTags (attraction_id, tag_id) VALUES (?, ?)";
-            try (PreparedStatement insertStmt = con.prepareStatement(insertSQL)){
+            try (PreparedStatement insertStmt = con.prepareStatement(insertSQL)) {
                 insertStmt.setLong(1, attractionId);
                 insertStmt.setInt(2, tagId);
                 insertStmt.executeUpdate();
 
             }
         }
-}
-private long getAttractionIdByName(String attractionName, Connection con) throws SQLException{
-    String query = "SELECT attraction_id FROM Attraction WHERE name = ?";
-    try(PreparedStatement pstmt = con.prepareStatement(query)){
-        pstmt.setString(1,attractionName);
-        try(ResultSet resultSet = pstmt.executeQuery()) {
-            if (resultSet.next()){
-                return resultSet.getLong("attraction_id");
-            }
-            else throw new SQLException("Attraction not found: "+ attractionName);
-        }
     }
-}
-private int getTagId(String tagName, Connection con) throws SQLException{
-        String query = "SELECT tag_id FROM Tags WHERE tag_name =?";
-        try(PreparedStatement pstmt = con.prepareStatement(query)){
-            pstmt.setString(1, tagName);
-            try(ResultSet resultSet = pstmt.executeQuery()) {
-                if(resultSet.next()){
-                    return resultSet.getInt("tag_id");
-                }
-                else throw new SQLException("Tag not found:" + tagName);
-            }
-        }
-}
-    /*
 
-    // UPDATE ATTRACTION
-    public void updateAttraction(String name, String description, List<String> tags, String city) {
-        Attraction attraction = getByName(name);
-        attraction.setDescription(description);
-        attraction.setTags(tags);
-        attraction.setCity(city);
+    private long getAttractionIdByName(String attractionName, Connection con) throws SQLException {
+        String query = "SELECT attraction_id FROM Attraction WHERE name = ?";
+        try (PreparedStatement pstmt = con.prepareStatement(query)) {
+            pstmt.setString(1, attractionName);
+            try (ResultSet resultSet = pstmt.executeQuery()) {
+                if (resultSet.next()) {
+                    return resultSet.getLong("attraction_id");
+                } else throw new SQLException("Attraction not found: " + attractionName);
+            }
+        }
     }
+
+    private int getTagId(String tagName, Connection con) throws SQLException {
+        String query = "SELECT tag_id FROM Tags WHERE tag_name =?";
+        try (PreparedStatement pstmt = con.prepareStatement(query)) {
+            pstmt.setString(1, tagName);
+            try (ResultSet resultSet = pstmt.executeQuery()) {
+                if (resultSet.next()) {
+                    return resultSet.getInt("tag_id");
+                } else throw new SQLException("Tag not found:" + tagName);
+            }
+        }
+    }
+
+    public void deleteAttraction(String name) {
+        String deleteQuery = "DELETE FROM Attractions WHERE name = ?";
+
+        try (Connection con = getConnection();
+             PreparedStatement pstmt = con.prepareStatement(deleteQuery)) {
+            pstmt.setString(1,name);
+            int affectedRows = pstmt.executeUpdate();
+
+            if (affectedRows == 0) {
+                throw new SQLException("No attraction to delete found: " + name);
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException("No attraction to delete found: " + name + e);
+        }
+    }
+    /*
 
     // DELETE
     public void deleteAttraction(String name) {

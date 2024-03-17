@@ -64,7 +64,7 @@ public class AttractionController {
 
         return "redirect:/";
     }
-/*
+
     @GetMapping("/tags/{name}")
     public String displayTags(@PathVariable String name, Model model) {
         Attraction attraction = attractionService.getByName(name);
@@ -88,5 +88,5 @@ public class AttractionController {
         return "errorPage";
     }
 
- */
+
 }
