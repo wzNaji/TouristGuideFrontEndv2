@@ -42,7 +42,7 @@ public class AttractionController {
                 attraction.getDescription(), attraction.getTags(), attraction.getCity());
         return "redirect:/";
     }
-/*
+
 
     @GetMapping("/edit/{name}")
     public String displayEditForm(@PathVariable String name, Model model) {
@@ -64,7 +64,7 @@ public class AttractionController {
 
         return "redirect:/";
     }
-
+/*
     @GetMapping("/tags/{name}")
     public String displayTags(@PathVariable String name, Model model) {
         Attraction attraction = attractionService.getByName(name);
