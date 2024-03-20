@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Explicitly runs unit tests when using gh-actions workflow">
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;code_inspection directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,7 @@
       <workItem from="1710682520887" duration="702000" />
       <workItem from="1710783942253" duration="8870000" />
       <workItem from="1710871836639" duration="7073000" />
-      <workItem from="1710901571532" duration="2139000" />
+      <workItem from="1710901571532" duration="2694000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -458,7 +458,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710952395575</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added:&#10;code_inspection directory">
+      <option name="closed" value="true" />
+      <created>1710953651143</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710953651143</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added:&#10;code_inspection directory">
+      <option name="closed" value="true" />
+      <created>1710953987215</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710953987215</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +523,8 @@
     <MESSAGE value="Lots of changed. program runs and works fine.&#10;Stil repo tests needed (Cant connect to h2 in-memory db)" />
     <MESSAGE value="minor" />
     <MESSAGE value="Explicitly runs unit tests when using gh-actions workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Explicitly runs unit tests when using gh-actions workflow" />
+    <MESSAGE value="Added:&#10;code_inspection directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;code_inspection directory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
