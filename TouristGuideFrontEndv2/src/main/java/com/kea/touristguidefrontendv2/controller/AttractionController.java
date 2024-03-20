@@ -59,6 +59,7 @@ public class AttractionController {
         if (attraction == null || attraction.getName().isEmpty()) {
             return "redirect:/errorPage";
         }
+
         attractionService.updateAttraction(attraction.getName(), attraction.getDescription(),
                 attraction.getTags(), attraction.getCity());
 
