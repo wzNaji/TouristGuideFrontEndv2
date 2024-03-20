@@ -1,5 +1,6 @@
 name: Java CI with Maven and Qodana
 
+# Triggers the workflow on push or pull request events but only for the main branch
 on:
   push:
     branches: [ "main" ]
@@ -8,32 +9,47 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Sets the runner to the latest Ubuntu version
+
     steps:
+      # Checks-out the repository under $GITHUB_WORKSPACE, so the workflow can access it
       - uses: actions/checkout@v3
+
+      # Sets up a specific version of Java to use in the runner
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
+          java-version: '17'  #
           distribution: 'temurin'
-          cache: maven
+          cache: maven  # Caches Maven dependencies to speed up builds
 
+      # Compiles the code, packages it into a JAR file and runs unit tests
       - name: Build with Maven
-        run: mvn -B package --file pom.xml
-        working-directory: TouristGuideFrontEndv2  # Specify the directory where pom.xml is located
+        run: mvn -B package --file pom.xml  # -B ensures the build is less verbose
+        working-directory: TouristGuideFrontEndv2  # Directory where pom.xml is located
+
+      # Explicitly runs the unit tests to highlight test execution in the workflow
+      - name: Run Tests
+        run: mvn test  # Executes the unit tests separately from the build
+        working-directory: TouristGuideFrontEndv2  # Ensure we're in the right directory
 
   qodana:
-    needs: build
-    runs-on: ubuntu-latest
+    needs: build  # Ensures this job runs only after the build job completes successfully
+    runs-on: ubuntu-latest  # se linje 12
+
     permissions:
       contents: write
       pull-requests: write
       checks: write
+
     steps:
+      # Re-checks-out the repository to ensure it's up to date for the Qodana scan
       - uses: actions/checkout@v3
+
+      # Runs Qodana, JetBrains' static code analysis tool, to inspect code quality
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@v2023.3
+        uses: JetBrains/qodana-action@v2023.3  # Uses the Qodana GitHub Action
         with:
-          project-dir: 'TouristGuideFrontEndv2'
+          project-dir: 'TouristGuideFrontEndv2'  # Directory to run the analysis on
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}  # Token for Qodana cloud
