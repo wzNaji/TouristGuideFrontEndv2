@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Repo converted to connect with JDBC">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/java/com/kea/touristguidefrontendv2/repositoryTest/RepositoryH2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/resources/h2DDL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/resources/h2DML.sql" afterDir="false" />
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/controller/AttractionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/repository/AttractionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/java/com/kea/touristguidefrontendv2/repository/AttractionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/addForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/templates/editForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/test/java/com/kea/touristguidefrontendv2/repositoryTest/RepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/controller/AttractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/controller/AttractionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/com/kea/touristguidefrontendv2/repository/AttractionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/addForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/target/classes/templates/editForm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +209,7 @@
       <workItem from="1710359982692" duration="15403000" />
       <workItem from="1710682520887" duration="702000" />
       <workItem from="1710783942253" duration="8870000" />
-      <workItem from="1710871836639" duration="6466000" />
+      <workItem from="1710871836639" duration="7073000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -447,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710688891516</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Lots of changed. program runs and works fine.&#10;Stil repo tests needed (Cant connect to h2 in-memory db)">
+      <option name="closed" value="true" />
+      <created>1710901241404</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710901241404</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +490,8 @@
     <MESSAGE value="Minor changes:&#10;Clean-up" />
     <MESSAGE value="Added docs directory" />
     <MESSAGE value="Repo converted to connect with JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo converted to connect with JDBC" />
+    <MESSAGE value="Lots of changed. program runs and works fine.&#10;Stil repo tests needed (Cant connect to h2 in-memory db)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lots of changed. program runs and works fine.&#10;Stil repo tests needed (Cant connect to h2 in-memory db)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
