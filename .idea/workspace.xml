@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Added:&#10;code_inspection directory">
+    <list default="true" id="3f6391ae-cf0b-498c-8e22-1b8d9dfa22a0" name="Changes" comment="Minor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TouristGuideFrontEndv2/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +209,7 @@
       <workItem from="1710682520887" duration="702000" />
       <workItem from="1710783942253" duration="8870000" />
       <workItem from="1710871836639" duration="7073000" />
-      <workItem from="1710901571532" duration="2694000" />
+      <workItem from="1710901571532" duration="5879000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -474,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710953987215</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Minor">
+      <option name="closed" value="true" />
+      <created>1710954603118</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710954603118</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +533,8 @@
     <MESSAGE value="minor" />
     <MESSAGE value="Explicitly runs unit tests when using gh-actions workflow" />
     <MESSAGE value="Added:&#10;code_inspection directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;code_inspection directory" />
+    <MESSAGE value="Minor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
